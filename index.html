@@ -1,16 +1,68 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Zhuang Bi & Life</title>
+    <title>Teffee</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous">
+    </script>
+
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 </head>
 <body>
-<h1>This is love</h1>
-<h2>123</h2>
-<a href="george.html" target="_blank">Click here for more</a>
-<ul>
-<li>live</li>
-<li>take</li>
-<li>wonderulfongith</li>
-</ul>
+
+<!-- Uses a transparent header that draws on top of the layout's background -->
+<style>
+.demo-layout-transparent {
+  background: url('wallpaper.jpg') center / cover;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+}
+</style>
+
+<div class="demo-layout-transparent mdl-layout mdl-js-layout">
+  <header class="mdl-layout__header mdl-layout__header--transparent">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <a class="mdl-navigation__link" href="index.html">Teffee</a>
+      <!--<span class="mdl-layout-title">Title</span>*/-->
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation -->
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="">Story</a>
+        <a class="mdl-navigation__link" href="">Store</a>
+        <a class="mdl-navigation__link" href="">Blog</a>
+        <a class="mdl-navigation__link" href="">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Title</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="">Story</a>
+      <a class="mdl-navigation__link" href="">Store</a>
+      <a class="mdl-navigation__link" href="">Blog</a>
+      <a class="mdl-navigation__link" href="">Contact</a>
+    </nav>
+  </div>
+  <main class="mdl-layout__content">
+  <div class="mdl-grid">
+    <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--3-offset-desktop mdl-cell--8-col-tablet mdl-cell--2-offset-tablet mdl-cell--9-col-phone mdl-cell--1-offset-phone container">
+    <h1>Good Day ahead!</h1>
+    <h2>What would you like to have?</h2>
+    <a href="#" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Tea</a><a href="#" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">Coffee</a></div>
+  </div>
+  </main>
+</div>
 </body>
 </html>
